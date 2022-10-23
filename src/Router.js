@@ -1,6 +1,6 @@
 import { Route } from "react-router-dom";
 import Shop from "./pages/Shop";
-import Card from "./pages/Card";
+import Cart from "./pages/Cart";
 import ProductDetails from "./pages/ProductDetails";
 function Router() {
   return (
@@ -8,8 +8,8 @@ function Router() {
       <Route path="/shop">
         <Shop />
       </Route>
-      <Route path="/card">
-        <Card />
+      <Route path="/cart">
+        <Cart />
       </Route>
       <Route path="/product-details/:productId">
         <ProductDetails />

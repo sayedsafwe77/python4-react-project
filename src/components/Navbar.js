@@ -24,7 +24,7 @@ function Navbar() {
             <a>contact</a>
           </li>
           <li id="bag-shopping">
-            <NavLink to="/card" className="active">
+            <NavLink to="/cart" className="active">
               <i className="fa fa-bag-shopping"></i>
               <span className="card-number">1</span>
             </NavLink>

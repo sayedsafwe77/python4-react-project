@@ -51,6 +51,9 @@ body {
   top: 0;
   left: 0;
 }
+.added-to-card {
+  color: red !important;
+}
 #header #navbar {
   display: flex;
 }
